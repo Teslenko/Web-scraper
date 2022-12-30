@@ -1,0 +1,29 @@
+{
+  "name": "interview_web_scraper",
+  "version": "1.0.0",
+  "description": "Environment for web scraper interviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "author": "Medallion",
+  "dependencies": {
+    "@js-joda/core": "^5.4.2",
+    "cypress": "^12.1.0",
+    "cypress-real-events": "^1.7.4",
+    "cypress-visual-regression": "^2.0.1",
+    "dayjs": "^1.11.7",
+    "flatted": "^3.2.7",
+    "js-joda": "^1.11.0"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.16.0",
+    "@percy/cypress": "^3.1.2",
+    "cypress-dark": "^1.8.3",
+    "cypress-image-snapshot": "^4.0.1",
+    "cypress-wait-until": "^1.7.2",
+    "prettier": "2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
